@@ -2,7 +2,7 @@
 
 ![Desktop design](/design/desktop-design.png)
 
-## [Live]() | [Solution]() | [Challenge](https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY)
+## [Live](https://tomasmansilla.github.io/chat-app-css-illustration-master/) | [Solution](https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY/hub) | [Challenge](https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY)
 
 This is a solution to the [Chat app CSS illustration challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
