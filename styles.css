@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
 
 :root {
   box-sizing: border-box;
 
-  --Rubik-font: 'Rubik', sans-serif;
+  --Rubik-font: "Rubik", sans-serif;
   --regular-weight: 400;
   --medium-weight: 500;
   --bold-weight: 700;
@@ -163,19 +163,19 @@ img {
 
 /* illustration body */
 .illustration__body {
-  padding: 0.4em;
+  padding: 0.5em;
   border-radius: 0 0 1em 1em;
   background-color: var(--color-bg);
 }
 
 .illustration__body > * + * {
-  margin-top: 0.4em;
+  margin-top: 0.5em;
 }
 
 .message {
-  font-size: 0.4rem;
+  font-size: 0.5rem;
   max-width: 60%;
-  padding: 0.4em;
+  padding: 0.5em;
   border-radius: 1em;
   border-bottom-right-radius: 0.2em;
   margin-left: auto;
@@ -191,19 +191,19 @@ img {
   background-color: var(--color-receptor-bg-chat);
 }
 
-.message-img{
+.message-img {
   text-align: right;
 }
 
 .message-img > img {
-  width: 2.5em; 
+  width: 2.5em;
   height: 2.5em;
   border-radius: 0.5em;
 }
 
 .radio-button {
-  width: 1.2em;
-  height: 1.2em;
+  width: 1.3em;
+  height: 1.3em;
   border: 1px solid var(--color-radio-button);
   border-radius: 50%;
 }
@@ -213,13 +213,13 @@ img {
   display: flex;
   padding: 0.5em;
   align-items: center;
-  gap: 0.4em;
+  gap: 0.5em;
   color: var(--color-white);
   background-image: linear-gradient(
     45deg,
     var(--color-gradient-magenta),
     var(--color-gradient-violet)
-  )
+  );
 }
 
 .price {
@@ -234,15 +234,15 @@ img {
   font-size: 0.6rem;
   padding: 0.7em 0.4em 0.7em 1.9em;
   border-radius: 2em;
-  margin-top: 1.3em;
+  margin-top: 1.4em;
   background-color: var(--color-white);
   color: var(--color-placeholder-text);
 }
 
 .send-button {
   margin-left: auto;
-  width: 2em;
-  height: 2em;
+  width: 2.1em;
+  height: 2.1em;
   border-radius: 50%;
   background-color: var(--color-send-button);
   display: flex;
