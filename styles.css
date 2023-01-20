@@ -95,11 +95,12 @@ body {
 
 /* illustration */
 .illustration {
-  max-width: 15em;
+  max-width: 18em;
   margin: 1.5em 2em 3em;
-  border: 0.7em solid var(--color-white);
+  border: 0.9em solid var(--color-white);
   border-radius: 2em;
   box-shadow: 1px 1px 5px #ccc;
+  background-color: var(--color-bg);
 }
 
 /* illustration header */
@@ -108,8 +109,8 @@ body {
   position: relative;
   display: flex;
   align-items: center;
-  gap: 0.3em;
-  padding: 1em 0.5em 0.2em;
+  gap: 0.5em;
+  padding: 1.5em 0.8em 0.2em;
   border-radius: 1em 1em 0.5em 0.5em;
   background-image: linear-gradient(
     270deg,
@@ -123,31 +124,31 @@ body {
   top: 0;
   left: 25%;
   width: 50%;
-  height: 0.8em;
+  height: 0.9em;
   border-radius: 0 0 1em 1em;
   background-color: var(--color-white);
 }
 
 .icon {
   color: var(--color-white);
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 
 .user-image {
-  width: 1.5em;
-  height: 1.5em;
+  width: 1.75em;
+  height: 1.75em;
   border-radius: 50%;
   border: 1px solid var(--color-white);
 }
 
 .user-name {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   font-weight: var(--medium-weight);
   color: var(--color-white);
 }
 
 .user-status {
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   color: var(--color-user-status);
 }
 
@@ -163,19 +164,19 @@ img {
 
 /* illustration body */
 .illustration__body {
-  padding: 0.5em;
+  padding: 0.7em;
   border-radius: 0 0 1em 1em;
   background-color: var(--color-bg);
 }
 
 .illustration__body > * + * {
-  margin-top: 0.5em;
+  margin-top: 0.7em;
 }
 
 .message {
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   max-width: 60%;
-  padding: 0.5em;
+  padding: 0.6em;
   border-radius: 1em;
   border-bottom-right-radius: 0.2em;
   margin-left: auto;
@@ -196,8 +197,8 @@ img {
 }
 
 .message-img > img {
-  width: 2.5em;
-  height: 2.5em;
+  width: 2.75em;
+  height: 2.75em;
   border-radius: 0.5em;
 }
 
@@ -211,7 +212,7 @@ img {
 .message--price {
   max-width: 65%;
   display: flex;
-  padding: 0.5em;
+  padding: 0.7em;
   align-items: center;
   gap: 0.5em;
   color: var(--color-white);
@@ -224,7 +225,7 @@ img {
 
 .price {
   margin-left: auto;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: var(--bold-weight);
 }
 
