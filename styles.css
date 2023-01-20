@@ -77,7 +77,7 @@ body {
 @media screen and (min-width: 60em) {
   .background {
     left: -10em;
-    width: 38.8%;
+    width: 38.3%;
     height: 42em;
     border-radius: 0 0 100% 100%;
   }
@@ -87,7 +87,7 @@ body {
     left: unset;
     right: -10em;
     bottom: 0;
-    background-color: var(--color-receptor-bg-chat);
+    background-color: hsl(258deg 42% 93%);
     background-image: none;
     border-radius: 100% 100% 0 0;
   }
@@ -95,7 +95,7 @@ body {
 
 /* illustration */
 .illustration {
-  max-width: 18em;
+  max-width: 17em;
   margin: 1.5em 2em 3em;
   border: 0.9em solid var(--color-white);
   border-radius: 2em;
@@ -170,13 +170,13 @@ img {
 }
 
 .illustration__body > * + * {
-  margin-top: 0.7em;
+  margin-top: 0.6em;
 }
 
 .message {
   font-size: 0.6rem;
   max-width: 60%;
-  padding: 0.6em;
+  padding: 0.5em 0.6em;
   border-radius: 1em;
   border-bottom-right-radius: 0.2em;
   margin-left: auto;
@@ -268,7 +268,7 @@ img {
 }
 
 .title {
-  font-size: 2.6rem;
+  font-size: 2.5rem;
   font-weight: var(--medium-weight);
   color: var(--color-heading);
   margin-bottom: 0.3em;
